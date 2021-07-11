@@ -17,7 +17,32 @@
 
     <main>
       <div class="container">
+        <h1 class="visually-hidden">Лига А</h1>
+        <section class="preview">
+          <div class="preview__logo">
+            <img src="../img/svg/logo.svg" width="800" height="100" alt="Логотип">
+          </div>
+          <span class="preview__text preview__text--desktop">
+            Нажмите на Enter
+          </span>
+          <span class="preview__text preview__text--tablet">
+            Кликните на экран
+          </span>
+        </section>
+        <section class="info">
+          <div class="info__main">
+            <p>Вёрстка <br> и фронтенд любой сложности</p>
+          </div>
+          <div class="info__additical">
+            <picture>
+              <source media="(max-width: 1023px)" srcset="../img/svg/info-tablet.svg">
+              <img src="../img/svg/info-desktop.svg" width="316" height="289" alt="">
+            </picture>
+            <p>для digital&#8209;агентств, продуктовых компаний и фриланс&#8209;команд</p>
+          </div>
+        </section>
       </div>
+
     </main>
 
     @@include("source/html/base/footer.html")
